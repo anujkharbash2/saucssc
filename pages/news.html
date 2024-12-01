@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News & Updates - SAUCSSC</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+  </head>
+  <body>
+    <div id="nav-container"></div>
+
+    <main style="padding: 2rem">
+      <h1>News & Updates</h1>
+      <div id="news-container"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 || South Asian University Computer Science Students Community.</p>
+    </footer>
+
+    <script type="module">
+      import { createNavigation, initializeNavigation } from '../js/components/navigation.js';
+      
+      document.getElementById('nav-container').innerHTML = createNavigation('../');
+      initializeNavigation();
+    </script>
+    <script src="../js/news.js" type="module"></script>
+  </body>
+</html>

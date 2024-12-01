@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAU - Your Learning Platform</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="nav-container"></div>
+
+    <main class="hero">
+      <h1>Welcome to SAUCSSC</h1>
+      <p>Your one-stop platform for resources</p>
+      <div class="featured-sections">
+        <div class="feature">
+          <h2>SAU Courses</h2>
+          <div id="featured-courses"></div>
+        </div>
+        <div class="feature">
+          <h2>Upcoming Events</h2>
+          <div id="upcoming-events"></div>
+        </div>
+        <div class="feature">
+          <h2>Recent News</h2>
+          <div id="recent-news"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>South Asian University Computer Science Students Community || Desined And Developed By Anuj Kumar.</p>
+    </footer>
+
+    <script type="module">
+      import { createNavigation, initializeNavigation } from './js/components/navigation.js';
+      
+      document.getElementById('nav-container').innerHTML = createNavigation('./');
+      initializeNavigation();
+    </script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
