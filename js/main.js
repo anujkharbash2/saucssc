@@ -16,7 +16,7 @@ function displayFeaturedContent() {
   const upcomingEvents = document.getElementById('upcoming-events');
   if (upcomingEvents) {
     upcomingEvents.innerHTML = events
-      .slice(0, 2)
+      .slice(0, 5)
       .map((event) => createEventCard(event))
       .join('');
   }
@@ -25,7 +25,7 @@ function displayFeaturedContent() {
   const recentNews = document.getElementById('recent-news');
   if (recentNews) {
     recentNews.innerHTML = news
-      .slice(0, 2)
+      .slice(0, 5)
       .map((item) => createNewsCard(item))
       .join('');
   }

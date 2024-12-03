@@ -10,7 +10,7 @@ export const courseDetails = {
       lectures: 'Monday, Wednesday, Friday - 10:00 AM to 11:00 AM',
       lab: 'Tuesday - 2:00 PM to 4:00 PM',
       classroom: 'LS311',
-      labRoom: 'Math Lab LS209'
+      labRoom: ''
     },
     outline: 'https://drive.google.com/file/d/1MjJtWh4N2Eez0dNGxY6_iSMoAy4BJqAH/view?usp=sharing',
     resources: {
@@ -55,17 +55,22 @@ export const courseDetails = {
     title: 'PHY 101',
     fullTitle: 'Engineering Physics',
     description: 'Engineering physics course covering Quantum Mechanics, Semiconductor, and more',
-    image: '../assets/images/physics.jpg',
+    image: '../assets/images/sau.jpg',
     instructor: 'ASST.Prof. Jyotsana Sharma',
     schedule: {
       lectures: 'Tuesday, Thursday - 11:00 AM to 12:30 PM',
       lab: 'Wednesday - 2:00 PM to 5:00 PM',
-      classroom: 'LS312',
-      labRoom: 'Physics Lab LS210'
+      classroom: 'LS303',
+      labRoom: 'Physics Lab LS209'
     },
-    outline: '../assets/docs/phy101-outline.pdf',
+    outline: 'https://drive.google.com/file/d/1VAw6g2PFWHwAc-t-7fpK6NOKyFq3tcDq/view?usp=sharing',
     resources: {
-      lectureNotes: [],
+      lectureNotes: [{ 
+        url: 'https://drive.google.com/file/d/1XWgKcN_c0bdVX1I75J0ChrKIJsww7gfl/view?usp=sharing', 
+        name: 'Diffraction', 
+        uploadDate: '2024-12-03' 
+      },
+      ],
       practiceSheets: [],
       examPapers: []
     }
