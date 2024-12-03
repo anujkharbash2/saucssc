@@ -56,11 +56,11 @@ export const courseDetails = {
     fullTitle: 'Engineering Physics',
     description: 'Engineering physics course covering Quantum Mechanics, Semiconductor, and more',
     image: '../assets/images/sau.jpg',
-    instructor: 'ASST.Prof. Jyotsana Sharma',
+    instructor: 'Asst. Prof. Jyotsana Sharma',
     schedule: {
-      lectures: 'Tuesday, Thursday - 11:00 AM to 12:30 PM',
-      lab: 'Wednesday - 2:00 PM to 5:00 PM',
-      classroom: 'LS303',
+      lectures: '',
+      lab: '',
+      classroom: 'LS303 & LS304',
       labRoom: 'Physics Lab LS209'
     },
     outline: 'https://drive.google.com/file/d/1VAw6g2PFWHwAc-t-7fpK6NOKyFq3tcDq/view?usp=sharing',
@@ -71,7 +71,11 @@ export const courseDetails = {
         uploadDate: '2024-12-03' 
       },
       ],
-      practiceSheets: [],
+      practiceSheets: [{ 
+        url: 'https://drive.google.com/file/d/1G_ovYRZtxRFyz8wLDspAmTqZykvXw6TL/view?usp=sharing', 
+        name: 'Diffraction Practise Sheet', 
+        uploadDate: '2024-12-03' 
+      }],
       examPapers: []
     }
   },
