@@ -65,17 +65,35 @@ export const courseDetails = {
     },
     outline: 'https://drive.google.com/file/d/1VAw6g2PFWHwAc-t-7fpK6NOKyFq3tcDq/view?usp=sharing',
     resources: {
-      lectureNotes: [{ 
+      lectureNotes: [
+        { 
         url: 'https://drive.google.com/file/d/1XWgKcN_c0bdVX1I75J0ChrKIJsww7gfl/view?usp=sharing', 
         name: 'Diffraction', 
         uploadDate: '2024-12-03' 
       },
-      ],
-      practiceSheets: [{ 
-        url: 'https://drive.google.com/file/d/1G_ovYRZtxRFyz8wLDspAmTqZykvXw6TL/view?usp=sharing', 
-        name: 'Diffraction Practise Sheet', 
+      { 
+        url: 'https://drive.google.com/file/d/1CPDqb_ZYOMJUvl81k81gmEkPpDHiUU0h/view?usp=sharing', 
+        name: 'Polarization', 
         uploadDate: '2024-12-03' 
-      }],
+      },
+      { 
+        url: 'https://drive.google.com/file/d/1RhO9ksdelEAqyzjSOCucu_waSN9VXjTF/view?usp=sharing', 
+        name: 'Fiber Optics', 
+        uploadDate: '2024-12-03' 
+      },
+      { 
+        url: 'https://drive.google.com/file/d/1dMauJo4Ize-WWi5Hok6-81G2pa2XoRmu/view?usp=sharing', 
+        name: 'Quantum Mechanics', 
+        uploadDate: '2024-12-03' 
+      }
+      ],
+      practiceSheets: [
+      { 
+        url: 'https://docs.google.com/document/d/e/2PACX-1vRc1ckXxvnPXWRohxHHgl5Kwqm9YiF076C54xST4DLFnj-CwYzMuZAb46LzdweeouQXsu9e5myfgjx5/pub', 
+        name: 'Engineering Physics Practise Sheet', 
+        uploadDate: '2024-12-03' 
+      }
+      ],
       examPapers: []
     }
   },
