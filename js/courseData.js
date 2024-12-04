@@ -55,7 +55,7 @@ export const courseDetails = {
     title: 'PHY 101',
     fullTitle: 'Engineering Physics',
     description: 'Engineering physics course covering Quantum Mechanics, Semiconductor, and more',
-    image: '../assets/images/sau.jpg',
+    image: '../assets/images/banner1.jpg',
     instructor: 'Asst. Prof. Jyotsana Sharma',
     schedule: {
       lectures: '',
@@ -85,6 +85,15 @@ export const courseDetails = {
         url: 'https://drive.google.com/file/d/1dMauJo4Ize-WWi5Hok6-81G2pa2XoRmu/view?usp=sharing', 
         name: 'Quantum Mechanics', 
         uploadDate: '2024-12-03' 
+      },
+      {url: 'https://drive.google.com/file/d/1XLuynsfNIc5ybDAok5DAR96nDHmCl3dG/view?usp=sharing', 
+        name: 'Semiconductors', 
+        uploadDate: '2024-12-03'
+      },
+      {
+        url: 'https://drive.google.com/file/d/1fuXDU1UpGUYRAGwPPEdrrIxk3bFJRFH9/view?usp=sharing', 
+        name: 'LED', 
+        uploadDate: '2024-12-03'
       }
       ],
       practiceSheets: [

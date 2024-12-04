@@ -10,7 +10,7 @@ export const courses = [
     title: 'PHY 101',
     description:
       'Enginnering physics course covering Quantum Mechanics, Semiconductor, and more',
-    image: '../assets/images/sau.jpg',
+    image: '../assets/images/physics_prof.jpg',
   },
   {
     id: 'cse',
@@ -35,7 +35,7 @@ export const courses = [
 export function createCourseCard(course) {
   return `
       <div class="course-card">
-          <img src="${course.image}" alt="${course.title}" onerror="this.src='../assets/images/default-course.jpg'" style="width: 100%; border-radius: 8px;">
+          <img src="${course.image}" alt="${course.title}" onerror="this.src='../assets/images/saujpg'" style="width: 100%; border-radius: 8px;">
           <h3>${course.title}</h3>
           <p>${course.description}</p>
           <a href="course-details/${course.id}.html" class="btn">View Course</a>

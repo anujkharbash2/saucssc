@@ -27,7 +27,7 @@ export function renderCourseDetails(courseId) {
     <div class="course-details">
       <div class="course-header">
         <img src="${course.image}" alt="${course.title}" 
-             onerror="this.src='../assets/images/default-course.jpg'" 
+             onerror="this.src='../assets/images/banner1.jpg'" 
              class="course-banner">
         <h1>${course.title} - ${course.fullTitle}</h1>
       </div>
